@@ -1,0 +1,36 @@
+[
+ {
+  "_catatan": "KOORDINAT (lat, lng) tiap cabang dipakai untuk menghitung jarak & ongkir (rumus Haversine, src/utils/lokasi.js). Nilai di bawah masih PERKIRAAN: ganti dengan titik toko sebenarnya (Google Maps: klik kanan di titik toko lalu klik angka koordinat; angka pertama = lat, kedua = lng).",
+  "id": "outlet-utama",
+  "nama": "Outlet Utama & Pâtisserie Café",
+  "icon": "🏪",
+  "alamat": "Jl. Pahlawan No. 42, Kartoharjo, Kota Madiun",
+  "jam": "08.00 - 21.00 WIB",
+  "keunggulan": "Ready stock cake potong & dine-in",
+  "peta": "Jl. Pahlawan No. 42, Kartoharjo, Kota Madiun",
+  "lat": -7.629,
+  "lng": 111.5235
+ },
+ {
+  "id": "taman-asri",
+  "nama": "Cabang Taman Asri",
+  "icon": "🏬",
+  "alamat": "Jl. Serayu No. 18, Taman, Kota Madiun",
+  "jam": "08.30 - 20.30 WIB",
+  "keunggulan": "Spesialis kue basah & snack box",
+  "peta": "Jl. Serayu No. 18, Taman, Kota Madiun",
+  "lat": -7.6395,
+  "lng": 111.5105
+ },
+ {
+  "id": "central-kitchen",
+  "nama": "Central Kitchen & Pick-Up Point",
+  "icon": "👩‍🍳",
+  "alamat": "Jl. Mastrip Timur No. 88, Klegen, Kota Madiun",
+  "jam": "Dapur Produksi Utama",
+  "keunggulan": "Khusus pengambilan pre-order & wedding cake",
+  "peta": "Jl. Mastrip Timur No. 88, Klegen, Kota Madiun",
+  "lat": -7.614,
+  "lng": 111.534
+ }
+]

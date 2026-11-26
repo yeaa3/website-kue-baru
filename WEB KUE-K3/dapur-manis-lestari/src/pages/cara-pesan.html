@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cara Pesan, DP &amp; Pembayaran — Dapur Manis Lestari</title>
+  <link rel="icon" href="../../public/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../styles/tokens.css?v=3">
+  <link rel="stylesheet" href="../styles/global.css?v=3">
+  <link rel="stylesheet" href="../styles/components.css?v=3">
+</head>
+<body>
+  <header class="site-header" id="app-header"></header>
+  <main class="container">
+    <div class="page-header">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a> / Cara Pesan</nav>
+      <span class="badge" style="margin-top:.75rem">Panduan Praktis &amp; Ketentuan</span>
+      <h1>Cara Pesan, DP &amp; <em>Pembayaran</em></h1>
+      <p class="section__desc">Alur pemesanan, ketentuan waktu H-3 hingga H-14, skema DP dan pelunasan, ongkir otomatis, pembayaran QRIS &amp; transfer langsung di website, serta layanan pesan antar di Madiun &amp; sekitarnya.</p>
+    </div>
+
+    <section class="section" id="alur">
+      <div class="section__head"><span class="section__eyebrow">Alur Pemesanan</span><h2 class="section__title">5 Langkah Mudah <em>Pesan Kue</em></h2></div>
+      <ol class="steps-grid">
+        <li class="step-card"><span class="step-card__no" aria-hidden="true">1</span><span class="step-card__icon" aria-hidden="true">🛒</span><h3>Pilih Kue &amp; Isi Formulir</h3><p>Jelajahi <a class="link" href="produk/index.html">katalog produk</a>, masukkan ke keranjang, lalu isi <a class="link" href="#formulir-pesan">formulir pemesanan</a>. Lokasi, ongkir, DP/Lunas, dan total dihitung otomatis di website.</p></li>
+        <li class="step-card"><span class="step-card__no" aria-hidden="true">2</span><span class="step-card__icon" aria-hidden="true">💬</span><h3>Konsultasi Detail Kue</h3><p>Sampaikan tanggal acara, ukuran, rasa, palet warna, referensi foto, dan tulisan ucapan.</p></li>
+        <li class="step-card"><span class="step-card__no" aria-hidden="true">3</span><span class="step-card__icon" aria-hidden="true">🎨</span><h3>Penawaran &amp; Konfirmasi Desain</h3><p>CS memberi invoice penawaran, kepastian slot tanggal, biaya ornamen khusus, dan sketsa bila dibutuhkan.</p></li>
+        <li class="step-card"><span class="step-card__no" aria-hidden="true">4</span><span class="step-card__icon" aria-hidden="true">💳</span><h3>Bayar DP <span data-bisnis="pembayaran.dpPersen">50</span>% atau Lunas di Website</h3><p>Scan QRIS atau transfer bank langsung dari formulir (tunai tersedia untuk ambil di toko), lalu kirim konfirmasi &amp; bukti pembayaran ke WhatsApp. Rinciannya ada di bagian <a class="link" href="#pembayaran">Pembayaran &amp; DP</a>.</p></li>
+        <li class="step-card"><span class="step-card__no" aria-hidden="true">5</span><span class="step-card__icon" aria-hidden="true">🎂</span><h3>Pelunasan &amp; Pengiriman / Ambil</h3><p>Lunasi sisa tagihan paling lambat <span data-bisnis="pembayaran.pelunasanHari">H-1</span>. Kue dipanggang dan dihias fresh pada hari H, lalu diambil di outlet atau dikirim dengan kurir berpendingin.</p></li>
+      </ol>
+    </section>
+
+    <section class="section" id="lead-time">
+      <div class="section__head"><span class="section__eyebrow">Waktu Reservasi</span><h2 class="section__title">Ketentuan Waktu <em>(Lead Time)</em></h2></div>
+      <div class="grid grid--2 grid--4">
+        <div class="card info-card"><span class="badge lead-time">Min. H-3</span><h3>Ulang Tahun &amp; Tematik</h3><p>Fondant, buttercream floral, dan bento cake karakter.</p></div>
+        <div class="card info-card"><span class="badge lead-time">Min. H-14</span><h3>Wedding Cake Bertingkat</h3><p>Termasuk konsultasi struktur dan sesi food testing.</p></div>
+        <div class="card info-card"><span class="badge lead-time">H-60</span><h3>Hampers &amp; Korporat</h3><p>Bingkisan hari raya dan perusahaan dalam jumlah banyak.</p></div>
+        <div class="card info-card"><span class="badge lead-time">H-1 / Ready</span><h3>Roti &amp; Jajanan Pasar</h3><p>Roll cake, kue basah, atau beli langsung di etalase.</p></div>
+      </div>
+    </section>
+
+    <!-- Diisi dari bisnis.json oleh cara-pesan.js -->
+    <section class="section" id="pembayaran">
+      <div class="section__head"><span class="section__eyebrow">Pembayaran &amp; DP</span><h2 class="section__title">Skema <em>DP &amp; Pelunasan</em></h2><p class="section__desc">Pilih bayar bertahap (DP lalu pelunasan) atau langsung lunas.</p></div>
+      <div id="pembayaran-section"></div>
+    </section>
+
+    <section class="section" id="pengiriman">
+      <div class="section__head"><span class="section__eyebrow">Pengiriman</span><h2 class="section__title">Ongkir <em>Otomatis</em> &amp; Jangkauan</h2><p class="section__desc">Ambil di toko tanpa ongkir, atau antar dengan kurir berpendingin dalam radius <strong data-pengiriman="radius">15</strong> km dari cabang terdekat.</p></div>
+      <div class="grid grid--2 grid--3">
+        <div class="card info-card"><h3>Ambil di Toko</h3><p>Ongkos kirim <strong>Rp 0</strong>. Pilih cabang, tanggal, dan jam pengambilan di formulir.</p></div>
+        <div class="card info-card"><h3>Antar Kurir ≤ <span data-pengiriman="radius">15</span> km</h3><p>Aktifkan lokasi GPS atau pilih estimasi jarak; ongkir langsung terhitung.</p>
+          <ul class="tarif-list">
+            <li><span>0 – <span data-pengiriman="jarakDasar">3</span> km pertama</span><strong data-pengiriman="tarifDasar">Rp 10.000</strong></li>
+            <li><span>Setiap km berikutnya</span><strong data-pengiriman="tarifPerKm">Rp 3.000</strong></li>
+            <li><span>Batas maksimal (<span data-pengiriman="radius">15</span> km)</span><strong data-pengiriman="contohJauh"></strong></li>
+          </ul>
+        </div>
+        <div class="card info-card"><h3>Di Luar <span data-pengiriman="radius">15</span> km</h3><p>Pengiriman khusus: ongkir dikonfirmasi admin lewat WhatsApp dan pembayaran online baru dibuka setelah ongkir disepakati.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="ketentuan">
+      <div class="section__head"><span class="section__eyebrow">Kebijakan Dapur</span><h2 class="section__title">Ketentuan &amp; Syarat <em>Penting</em></h2></div>
+      <div class="stack">
+        <div class="card info-card"><h3>Uang Muka (DP) <span data-bisnis="pembayaran.dpPersen">50</span>%</h3><p>Wajib untuk mengamankan kalender produksi dan dibayar maksimal <span data-bisnis="pembayaran.batasBayarDP">1x24 jam setelah invoice diterbitkan</span>. Bahan, resep khusus, dan figur fondant baru diproses setelah DP terverifikasi.</p></div>
+        <div class="card info-card"><h3>Pelunasan</h3><p>Sisa tagihan dilunasi paling lambat <strong data-bisnis="pembayaran.pelunasanHari">H-1</strong> sebelum tanggal pengambilan atau pengiriman. Pesanan yang belum lunas tidak dapat diproses ke tahap pengiriman.</p></div>
+        <div class="card info-card"><h3>Perubahan &amp; Pembatalan</h3><p>Perubahan tulisan dan ornamen maksimal <strong>H-2</strong>. Pembatalan sepihak kurang dari H-2 membuat DP hangus karena bahan segar sudah disiapkan.</p></div>
+        <div class="card info-card"><h3>Alergi &amp; Bahan Baku</h3><p>Dapur kami memakai telur, butter, susu sapi, dan kacang-kacangan. Informasikan riwayat alergi saat konsultasi. Tanpa pengawet kimia, bersertifikat Halal LPPOM MUI.</p></div>
+      </div>
+      <p class="muted" style="margin-top:1rem">Ada pertanyaan lain? Lihat <a class="link" href="faq.html">halaman FAQ</a>.</p>
+    </section>
+
+    <section class="section" id="formulir-pesan">
+      <div class="section__head"><span class="section__eyebrow">Pesan Sekarang</span><h2 class="section__title">Keranjang &amp; <em>Formulir Pemesanan</em></h2><p class="section__desc">Isi data, tentukan lokasi pengiriman, pilih DP/Lunas, lalu bayar via QRIS atau transfer di sini. WhatsApp hanya untuk konfirmasi akhir &amp; bukti pembayaran.</p></div>
+      <div id="order-section"></div>
+    </section>
+
+    <section class="section">
+      <div class="cta-banner">
+        <h2>Butuh bantuan memesan?</h2>
+        <p>Konsultan kue kami siap membantu memilih ukuran, rasa, dan desain terbaik.</p>
+        <div class="cta-banner__actions">
+          <a class="btn btn--wa" data-wa="Halo Dapur Manis Lestari, saya ingin konsultasi pemesanan kue.">Konsultasi via WhatsApp</a>
+          <a class="btn btn--light" href="faq.html">Baca FAQ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="app-footer"></footer>
+  <nav class="bottom-nav" id="app-bottom-nav" aria-label="Navigasi bawah"></nav>
+  <script type="module" src="../scripts/cara-pesan.js"></script>
+</body>
+</html>

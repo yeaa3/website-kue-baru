@@ -1,0 +1,5 @@
+Taruh berkas font Bobaland di folder ini dengan nama persis:
+  Bobaland.woff2   (disarankan)
+  Bobaland.ttf     (cadangan)
+Lalu muat ulang halaman (Ctrl+F5). Selama belum ada, situs memakai Fredoka / Quicksand.
+Pastikan lisensi font mengizinkan pemakaian di website.

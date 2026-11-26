@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog Produk — Dapur Manis Lestari</title>
+  <link rel="icon" href="../../../public/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../../styles/tokens.css?v=3">
+  <link rel="stylesheet" href="../../styles/global.css?v=3">
+  <link rel="stylesheet" href="../../styles/components.css?v=3">
+</head>
+<body>
+  <header class="site-header" id="app-header"></header>
+  <main class="container">
+    <div class="page-header">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../index.html">Beranda</a> / Katalog Produk</nav>
+      <h1>Katalog Kue &amp; <em>Pastry Pilihan</em></h1>
+      <p class="section__desc">Dibuat setiap hari tanpa pengawet buatan. Tambah ke keranjang atau pesan langsung via WhatsApp.</p>
+    </div>
+
+    <div class="toolbar">
+      <input id="cari-produk" type="search" placeholder="Cari nastar, bolu gulung, tart…" aria-label="Cari produk">
+      <select id="urutkan-produk" aria-label="Urutkan produk">
+        <option value="default">Paling Populer</option>
+        <option value="harga-rendah">Harga Terendah</option>
+        <option value="harga-tinggi">Harga Tertinggi</option>
+        <option value="nama">Nama (A–Z)</option>
+      </select>
+    </div>
+    <div class="pills" id="kategori-pills"></div>
+
+    <p class="results-count" id="hasil-jumlah"></p>
+    <div class="grid grid--products" id="produk-list"></div>
+    <div class="card empty-state" id="produk-kosong" hidden>
+      <h3>Kue Tidak Ditemukan</h3>
+      <p class="muted">Tidak ada produk yang sesuai pencarian Anda. Mau request kreasi khusus?</p>
+      <p style="margin-top:1rem"><a class="btn btn--primary btn--sm" data-wa="Halo Dapur Manis, apakah bisa request kue khusus?">Request Kue Spesial</a></p>
+    </div>
+    <p class="muted" style="margin-top:1.5rem;font-size:.78rem"><strong>Catatan:</strong> harga adalah harga dasar. Harga kue kustom menyesuaikan ukuran, topper/figurine, dan kerumitan ornamen.</p>
+  </main>
+  <footer class="site-footer" id="app-footer"></footer>
+  <nav class="bottom-nav" id="app-bottom-nav" aria-label="Navigasi bawah"></nav>
+  <script type="module" src="../../scripts/produk.js"></script>
+</body>
+</html>

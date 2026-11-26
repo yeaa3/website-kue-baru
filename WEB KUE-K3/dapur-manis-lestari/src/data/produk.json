@@ -1,0 +1,241 @@
+{
+ "kategori": [
+  {
+   "id": "ulang-tahun",
+   "nama": "Kue Ulang Tahun",
+   "emoji": "🎂",
+   "keterangan": "Desain tematik cantik",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIBbm1R34pdPes0Yk6tDN4WcDvmb2PV94XzmjT_q2AfSZ1BdwkifmFMsziriqdCunKIGNGohkyiHZ03qjgpV4Mcd1JnVEVORGLBHEc7O82HJG-8GdmaGH5ZMb3cnE7KKvFakFItNJ4UNH-r6gQeCp0-rEdLh2I8_Cd2ygrevgAzRsCqlElDVJib_Q4wpNWXYVEag0fJ2Nq37MLIO2EqC_TULveg-twzPjfUYyCQeE"
+  },
+  {
+   "id": "pernikahan",
+   "nama": "Pernikahan & Acara",
+   "emoji": "💍",
+   "keterangan": "Tiered cake & dessert table",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnp09id-EUiAre5ZSoVIyJmNdt4GJQfnEjiqZgXwwmaTCxd8MhCHAx7aOFGRQwU5P5YjqKJQcZqAwlb7R6GLvESKsxxm_hJw8UswwOInmui3zxo1agjH98klq1_huqhOBOT1ZHHpNIhwcDPM5-HZlqOpKkXkIutyeGCd8TFePfmwtZHeH3Om3PGAXwIUQv7G0X0orP2trMADNBZiaBoy10U7Qjkh028z30H9jGE4c"
+  },
+  {
+   "id": "kue-kering",
+   "nama": "Kue Kering & Roti",
+   "emoji": "🍪",
+   "keterangan": "Resep warisan butter Wijsman",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgQab7I_XFB1Y-atwzZbKCNPHCtk8eVSdSPswLwLEpqVqvmvCY_kE8c2Nv3BMryMRI5ZDm39BFkcpSB3Nu2uPrRU8UnjNIUxc0SE7_aOGFf99vYMVfEghcwBPCuclDt3U_OAj_cykERzP4Kj9G8je7T9sdJ8PGTGAL_ZlaNr9rDBBCPIRGef7gVz7X9gV5-pSb3bE54h5IBJppcYPv-FHle5oeYhSMTA1XShm9S4A"
+  },
+  {
+   "id": "hampers",
+   "nama": "Paket Hampers",
+   "emoji": "🎁",
+   "keterangan": "Kemasan eksklusif & kartu doa",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBRj1lUxySLhgFgyJonWMrPMalUs7BOrNjLLk-AOp8eTSzNPDGHDwTiCi2-tjfJz8SYJhD-fChADlCZbJ1D6r0UcIF6EOyR9gG1Q22mNlEmQyXTQjFaVgdzzZjIccMqhvqED_p0bTaK1RmCaoT20IxLEkYSI3bF3QYy2KGhEfgao6gTgHtLndauzF0aaNARMBi-3m1u7QAEyXwdDTYSEA7LSDsO7y7_MrDEHrTTkPI"
+  }
+ ],
+ "produk": [
+  {
+   "id": "chocolate-dream-cake",
+   "nama": "Chocolate Dream Cake",
+   "kategori": "ulang-tahun",
+   "harga": 165000,
+   "satuan": "Ø 18 cm",
+   "label": "Best Seller",
+   "unggulan": true,
+   "deskripsi": "Cokelat Belgia 56% dengan lelehan ganache pekat.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIBbm1R34pdPes0Yk6tDN4WcDvmb2PV94XzmjT_q2AfSZ1BdwkifmFMsziriqdCunKIGNGohkyiHZ03qjgpV4Mcd1JnVEVORGLBHEc7O82HJG-8GdmaGH5ZMb3cnE7KKvFakFItNJ4UNH-r6gQeCp0-rEdLh2I8_Cd2ygrevgAzRsCqlElDVJib_Q4wpNWXYVEag0fJ2Nq37MLIO2EqC_TULveg-twzPjfUYyCQeE"
+  },
+  {
+   "id": "red-velvet-cream-cheese",
+   "nama": "Red Velvet Cream Cheese",
+   "kategori": "ulang-tahun",
+   "harga": 185000,
+   "satuan": "Ø 18 cm",
+   "label": "Signature",
+   "unggulan": true,
+   "deskripsi": "Cream cheese Australia & buttermilk lembut segar.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAPSH6DB1KH2B7nDyBIiyJGv8mjG-jSV_QYY5keeITK2mNDkq5A-AUFKbnndoh5IoddaXItpC0JHjHHCnBM0obE9C_P8dKaM3zv_GsArP9eK-93SpWwzbzY-y7sdxJ_2bd9gGFc3_3f9kK0CWLuuiKkne9YIec8-Ai2OZNFOdKSqaQBJt1QshB56Wk4n9D3YvuxDfHiamYsj9ohqf56cOc5slp64uil7OXW1TDhqB0"
+  },
+  {
+   "id": "rainbow-birthday-cake",
+   "nama": "Rainbow Birthday Cake",
+   "kategori": "ulang-tahun",
+   "harga": 210000,
+   "satuan": "Ø 20 cm",
+   "label": "Favorit Anak",
+   "deskripsi": "6 lapis warna alami dilapisi buttercream vanila.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAs0LCUHnqT-O2ycJ9wnZt95Y8hFUqgZn9e2-gtNxJfmh8-xCKdV05OVQc_YLekSf76ByEi8fUpB5ln-eW0alrKiys6SFEF9WpMrAiQxMEI7-W_E82qxJh-2Krt1TjmJKSjFP47-c9hWJkNQuotwjIZFPkzTfqJMMLXxSomtf_2hWsMLE9flZLJK1tO1Uu-qWI2mmueAaDsjZaZ6892KODkS6qPZ2MU7Bw2H7TajjI"
+  },
+  {
+   "id": "fresh-fruit-chiffon",
+   "nama": "Fresh Fruit Chiffon",
+   "kategori": "ulang-tahun",
+   "harga": 195000,
+   "satuan": "Ø 20 cm",
+   "label": "Rendah Gula",
+   "deskripsi": "Buah segar stroberi, anggur, jeruk & krim ringan.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuD1HPnwziqGR9C4c_qDwWSB5sa60e7OlAzTgZ2UfNoaaITlpwGrpAjQZ2OycWDfodjM8N0CzJVhN6GtgscTzL2zantA00LzKBvAQGCGyOuCSk9SdV4YrQOFgPziexTjI2RWBoUug0fbuPco3fp2TAe09oYD4LhBhoPZJswC4833wY1eFDeSQSxNkXFvUkLCHFIOsU5IwJeoGJXzgzkO-7rNKLc5Lwj9oP3GNbkaiiA"
+  },
+  {
+   "id": "kue-karakter-kustom",
+   "nama": "Kue Karakter Kustom",
+   "kategori": "ulang-tahun",
+   "harga": 350000,
+   "satuan": "Ø 20 cm",
+   "label": "Pre-Order H-3",
+   "deskripsi": "Tema karakter 3D & 2D sesuai imajinasi.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBMRJTcz1rkbUCbTHCwAH33qPP4IAWUxjYMZWoYS-TJKv_wevXFe5dYFMfCZQhLmkAHXEW93MmQ5pABZzeXHgox1BwFHnKvToBlAG_CZIUDX64HE2Spl-RcKhB21mA0i4yht_cUPvLATk2_2-Yu1ksWhf-qa5mPDYZulV_O-waMz2YIL2RDqDevO-2DuUrY_M0ms2H9wcOYsv4M2Jvb4Bd8kKya_1iEm5wXlQrpcVQ"
+  },
+  {
+   "id": "kue-tingkat-2-lapis",
+   "nama": "Kue Tingkat 2 Lapis",
+   "kategori": "ulang-tahun",
+   "harga": 550000,
+   "satuan": "20 + 15 cm",
+   "label": "Pesta Mewah",
+   "deskripsi": "Sempurna untuk pesta intim keluarga & anniversary.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAGYarKqptx9MyqXyfnrayDyycRlwwjLgz1bKPyajk9vuf4FRBdKS0BfkDB49h3yjtuvWJInQwvfvaSIPw5tBIbkGbwk5Mf1mJGiRrtSe7DFbNWeZDNWpcgfaBz2kdcOxj5e7S2k6B4KE33XzZMAWWHM0pIT0_XPqYxr-R21dC5xMc9YEAGl2VhYsn6eRau2ibawo_gvWHvsE3_Br3nVnzymE1J77ethi3ErsC_KTs"
+  },
+  {
+   "id": "wedding-cake-3-tingkat",
+   "nama": "Wedding Cake 3 Tingkat",
+   "kategori": "pernikahan",
+   "harga": 2200000,
+   "satuan": "60 porsi",
+   "label": "Pre-Order H-14",
+   "unggulan": true,
+   "deskripsi": "Bunga segar / ornamen gula mewah dengan rangka kokoh.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnp09id-EUiAre5ZSoVIyJmNdt4GJQfnEjiqZgXwwmaTCxd8MhCHAx7aOFGRQwU5P5YjqKJQcZqAwlb7R6GLvESKsxxm_hJw8UswwOInmui3zxo1agjH98klq1_huqhOBOT1ZHHpNIhwcDPM5-HZlqOpKkXkIutyeGCd8TFePfmwtZHeH3Om3PGAXwIUQv7G0X0orP2trMADNBZiaBoy10U7Qjkh028z30H9jGE4c"
+  },
+  {
+   "id": "dessert-table-paket-a",
+   "nama": "Dessert Table Paket A",
+   "kategori": "pernikahan",
+   "harga": 1850000,
+   "satuan": "100 pcs",
+   "label": "Paket Lengkap",
+   "deskripsi": "Setup meja dessert lengkap dengan dekorasi mewah.",
+   "gambar": "dessert-table-paket-a.jpg"
+  },
+  {
+   "id": "kue-seserahan",
+   "nama": "Kue Seserahan",
+   "kategori": "pernikahan",
+   "harga": 275000,
+   "satuan": "Box isi 6",
+   "label": "Box Kayu Akrilik",
+   "deskripsi": "Kue tradisional-modern dihias pita emas.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_SzIONAljh4u-NYLxCwkhctidRiH7hXrFqPPJMaZ70Z17pAGVsq2uB3e-CK5vvjcoxKGDnNVYd1uXqEppqWAJE-WYEJBfVEx-otTk-VKIFvi_VaWPnzvVWiTwIGdjS3bDlIxe9dA8Shr4sr4O-a4uExIDQYtgPvrK9vstwVC1SQ2WyStEX3FXfztuGaXP4iK56v3gsoyM7jILTNtq2sk_6MRDAD3m6oalW0jwk-I"
+  },
+  {
+   "id": "snack-box-acara",
+   "nama": "Snack Box Acara",
+   "kategori": "pernikahan",
+   "harga": 32000,
+   "satuan": "/ box (min. 30)",
+   "label": "Min. 30 Box",
+   "minQty": 30,
+   "deskripsi": "Isi 3 kue + minuman untuk rapat kantor & pengajian.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBP4IF37dBbH3jcUXJBnoeXWAlBfL39d67TETDz2KM5uoelHB2dQkndVpo_r4-gVCVq-zcsLvs5ZgTy7gVQscX_LUBKyMU_llA7JW4rkBC8XYyeOwCMqVRBMTLrLLLWHErEeS4SrjVMBdsW6oa9Vf4ZYNqfBoBqXmfQWBAMIPfLbT5j7Y60qrBzA30p7Rad4pUdUWMbRpa7Mhmg6a1ufG4G0rq_UMfTt0vtOtSoC50"
+  },
+  {
+   "id": "nastar-premium-wijsman",
+   "nama": "Nastar Premium Wijsman",
+   "kategori": "kue-kering",
+   "harga": 125000,
+   "satuan": "Toples 500 g",
+   "label": "Wijsman Butter",
+   "unggulan": true,
+   "deskripsi": "Selai nanas homemade legit, butter lumer di lidah.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgQab7I_XFB1Y-atwzZbKCNPHCtk8eVSdSPswLwLEpqVqvmvCY_kE8c2Nv3BMryMRI5ZDm39BFkcpSB3Nu2uPrRU8UnjNIUxc0SE7_aOGFf99vYMVfEghcwBPCuclDt3U_OAj_cykERzP4Kj9G8je7T9sdJ8PGTGAL_ZlaNr9rDBBCPIRGef7gVz7X9gV5-pSb3bE54h5IBJppcYPv-FHle5oeYhSMTA1XShm9S4A"
+  },
+  {
+   "id": "kastengel-keju-edam",
+   "nama": "Kastengel Keju Edam",
+   "kategori": "kue-kering",
+   "harga": 135000,
+   "satuan": "Toples 500 g",
+   "label": "Keju Tua Belanda",
+   "unggulan": true,
+   "deskripsi": "Keju Edam tua gurih renyah tanpa penguat rasa kimia.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcIoqgl9A629A2YwFhDg0t5X5L0N5-5uWyWgPQ9I8kcmEq9LsyyXELKJqezFsnYIPq8kz2S0fV8QG0JekoJTvv89BLkrRfmCqTTShNtqsKd9qbvNLa9FwpsuIV5oVJxFU5fEs5jpFAwz7oQV4AJs7MjpdxVfDYxB_ScfS7cxKJJw6rk21AN1jNTUoOzFvbl8BU27hGaTuMhRQgtitj4BFbBxbPr-nfSCEW0S1OKhk"
+  },
+  {
+   "id": "putri-salju-pandan-mede",
+   "nama": "Putri Salju Pandan Mede",
+   "kategori": "kue-kering",
+   "harga": 110000,
+   "satuan": "Toples 500 g",
+   "label": "Kacang Mede",
+   "deskripsi": "Lumer dengan aroma pandan.",
+   "gambar": "putri-salju-pandan-mede.jpg"
+  },
+  {
+   "id": "brownies-panggang-fudgy",
+   "nama": "Brownies Panggang Fudgy",
+   "kategori": "kue-kering",
+   "harga": 85000,
+   "satuan": "Loyang 20 cm",
+   "label": "Shiny Crust",
+   "deskripsi": "Renyah di atas, taburan almond & choco chips.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNW7C1H6UcGWWm-mCJajWufp93pvNQXTkgs9IFLNmaqkI_9VoZhPvpVu99ksyV8EZHC01TRhiCgkVg7csHDW9xr9SW1dLBNq78CKdtixQ-uJovnAJlVr586eSOGniZ6vFGcCyCqHTxLe5lGU3HHIzDWiwAdhE_iHObOmOyz927bgYee8RseSDg5JyLv-0-zE2qb1J7BgKdM6eqvadgE4ZLXmwnG7U-0Bk7rJSceCc"
+  },
+  {
+   "id": "bolu-gulung-pandan-keju",
+   "nama": "Bolu Gulung Pandan Keju",
+   "kategori": "kue-kering",
+   "harga": 65000,
+   "satuan": "Utuh 24 cm",
+   "label": "Daun Suji Asli",
+   "deskripsi": "Pasta pandan alami & buttercream gurih melimpah.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCVrjrugeKCjDeGZSZ9QDuCI0KX7rjEB8WE0u8Ifn5A795NLar13DaTG_1fDJA7X2LouL-PpTN812MX0oHxi0-8s_SlLYCDT9OgWXJrPCVzw5m-1CIh5bKCc2L6mZIKOqY-MsEslquJW9S2oHf1oJLKBPaNzG4laAHqgj6-oLT7PknUAYqgs-MNL3RjWmLxrbskkNSpMA4hq3l_QeglmM0XV_iHF8TcBrSAFnu_oRI"
+  },
+  {
+   "id": "kue-lapis-legit-prunes",
+   "nama": "Kue Lapis Legit Prunes",
+   "kategori": "kue-kering",
+   "harga": 220000,
+   "satuan": "Loyang 20 cm",
+   "label": "Wijsman Asli",
+   "deskripsi": "Rempah harum spekuk berlapis, tanpa minyak curah.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjlhNQY7usGc9DJ5hcDdWgU6OJMeB2v2-Wlr2FcA9wC3ObTe1Z6LYEFKbL-qx1rssHTuOj7t_j1eTF1QDLUFqM4tjMYgTk4LhBXgs9TDBUwzhvWx5Zkk8F1ttfQh6X3ZswRspQuGIqm52uisP4zjS_axXCEsAoI_W-VE_xV7FWH-BsuEkA0aP715SM7rFZTX-_-TS8mf38jpM-5N7MW6m6FnYVnJ8g9WU25JjvgGM"
+  },
+  {
+   "id": "hampers-manis-elegan",
+   "nama": "Hampers Manis Elegan",
+   "kategori": "hampers",
+   "harga": 385000,
+   "satuan": "3 toples",
+   "label": "Hardbox Mewah",
+   "deskripsi": "3 toples kue kering premium + kartu ucapan custom.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEfh3VWKryGew4peDcKlSdWgp2hRlRlcd36-MhYC4eOZgBTG2_B2xJ1OYSMCuO6UaFwKYnFHuCTYPfBh6RN9PyVLK6JuJG64Oh3Vg0BQZmFrlgK2xiGcMU4aIoIGVkQ5J9nsX6yQlRbM0mxlgA4XlAeltL8KG6h4d58NU9ugBm3mM9MelYxXDZ-ICazY872NMSKw1NzhFSH8pDTSe1mtPRFkdwBJIdmlTTK4nfGhg"
+  },
+  {
+   "id": "hampers-lebaran-premium",
+   "nama": "Hampers Lebaran Premium",
+   "kategori": "hampers",
+   "harga": 695000,
+   "satuan": "Box eksklusif",
+   "label": "Edisi Idul Fitri",
+   "unggulan": true,
+   "deskripsi": "5 toples kue, lapis legit, dan tas kain tenun.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBRj1lUxySLhgFgyJonWMrPMalUs7BOrNjLLk-AOp8eTSzNPDGHDwTiCi2-tjfJz8SYJhD-fChADlCZbJ1D6r0UcIF6EOyR9gG1Q22mNlEmQyXTQjFaVgdzzZjIccMqhvqED_p0bTaK1RmCaoT20IxLEkYSI3bF3QYy2KGhEfgao6gTgHtLndauzF0aaNARMBi-3m1u7QAEyXwdDTYSEA7LSDsO7y7_MrDEHrTTkPI"
+  },
+  {
+   "id": "hampers-natal-tahun-baru",
+   "nama": "Hampers Natal & Tahun Baru",
+   "kategori": "hampers",
+   "harga": 450000,
+   "satuan": "Paket season",
+   "label": "Holiday Special",
+   "deskripsi": "Spiced fruit cake, artisan cookies & teh pilihan.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDXr6HxIadDD_GzVyCD5NgmIBWOYPGEqIsf3yg57Ixqkfrpt0bA1BwfbWe74qsFiXB1qw6hBsTvE__kPwRJ2dRhE1tmfpOcF1vy8DeawC6vbVg_51PPycG9ETIiR2RqplOecRZP8NZffl0XM3gXC_4epZYKc5GDjT9wzLZLD5F72emu4tQP7iezQloc7fwHCHBTIv7zQIu1lWVTzM9aT8AHfcc-mHfygu-haufZNKQ"
+  },
+  {
+   "id": "hampers-korporat-kustom",
+   "nama": "Hampers Korporat Kustom",
+   "kategori": "hampers",
+   "harga": 250000,
+   "satuan": "/ box, mulai dari (kustom logo)",
+   "label": "B2B & Kantor",
+   "deskripsi": "Hardbox kustom lengkap logo & kartu perusahaan.",
+   "gambar": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8UclFvVvXdzWZzbo6wPXvFnTc4EoX0-0rxNzI0OJ1_OUNQyx0ZqLVZHFkQuJ1Km1Od3HocERwgg9Q7XBIKEyIeSCpkyskZmJSOViYK2foN4Pvwd9DICXJV9UeRTQcmq2fW1YHbZW4LZtgAFRanGOjE4rGqgMr0ld93GG4ms002PfjsHykDLEv6ei7-B2AJrQDQXI51fwCyStG9JR_auEOuBtPBPjLtMuNxLuva-0"
+  }
+ ]
+}

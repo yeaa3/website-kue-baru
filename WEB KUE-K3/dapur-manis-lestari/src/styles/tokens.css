@@ -1,0 +1,86 @@
+/* Design tokens: semua warna, font, jarak, dan ukuran dipusatkan di sini.
+   Palet "Soft Pink, Creamy Off-White, Rose Berry & Deep Burgundy": seluruh halaman hanya memakai warna dari berkas ini. */
+
+/* =====================================================================
+   FONT BODY: BOBALAND
+   Cara memasang:
+   1. Taruh berkas font di folder  public/fonts/  dengan nama persis:
+        public/fonts/Bobaland.woff2   (disarankan, ukuran kecil)
+        public/fonts/Bobaland.ttf     (cadangan)
+   2. Muat ulang halaman (Ctrl+F5). Tidak perlu mengubah kode lain.
+   Selama berkas belum ada, browser otomatis memakai font pengganti yang
+   sama-sama bulat & ceria: 'Fredoka', lalu 'Quicksand' (dimuat dari Google Fonts).
+   Catatan: font-weight dideklarasikan 100–900 agar browser tidak membuat
+   "bold palsu" pada font dekoratif yang hanya punya satu ketebalan.
+   Path url() dihitung dari berkas CSS ini (src/styles/ → ../../public/fonts/).
+   ===================================================================== */
+@font-face {
+  font-family: "Bobaland";
+  src: local("Bobaland"),
+       url("../../public/fonts/Bobaland.woff2") format("woff2"),
+       url("../../public/fonts/Bobaland.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ===== PALET INTI ===== */
+  --color-bg: #F8C4C4;          /* Soft Pastel Pink: latar utama halaman (body) */
+  --color-pink: #F8C4C4;        /* sama dengan latar halaman; dipakai untuk hover, ikon bulat, area gambar */
+  --color-cream: #FAF4E4;       /* Creamy Off-White: kartu produk kue, kartu info, input form, QRIS, modal keranjang */
+  --color-primary: #EB6378;     /* Rose Berry Pink: tombol utama, lingkaran nomor, badge */
+  --color-primary-hover: #D14B60; /* hover tombol utama */
+  --color-maroon: #820527;      /* Deep Burgundy Maroon: header, hero overlay, footer, judul & paragraf */
+
+  /* Teks */
+  --color-on-primary: #FFFFFF;  /* teks di atas tombol/lingkaran/badge Rose Berry (putih = kontras terbaik) */
+  --color-on-dark: #FAF4E4;     /* teks & ikon di atas latar maroon */
+  --color-text: #820527;        /* paragraf di atas pink maupun krem */
+  --color-text-muted: #820527;  /* teks pendukung (tetap maroon agar kontras tajam) */
+  --color-heading: #820527;     /* h1-h4 */
+  --color-link: #820527;        /* tautan di atas latar krem (garis bawah menjadi penanda tautan) */
+
+  /* Hero beranda: judul sedikit lebih cerah dari --color-on-dark (#FAF4E4), tetap di bawah putih murni
+     agar tidak "menyatu" dengan foto yang sangat terang; keterbacaan dijaga gradasi + text-shadow. */
+  --color-hero-title: #FFF9EE;      /* judul utama (h1) hero */
+  --color-hero-accent: #FFD6DB;     /* kata beraksen <em> pada judul hero (versi lebih cerah dari soft pink) */
+  --hero-shade-rgb: 130, 5, 39;     /* komponen RGB maroon #820527, dipakai untuk overlay transparan hero */
+  --hero-text-shadow: 0 1px 2px rgba(74, 2, 22, 0.55), 0 2px 14px rgba(74, 2, 22, 0.5);
+
+  /* Footer: strip paling bawah (hak cipta) sedikit lebih cerah dari maroon utama.
+     Kontras dengan teks #FFF9EE ≈ 7,6 : 1 (lolos WCAG AAA). Untuk mencerahkan seluruh footer, ubah --color-maroon di footer ke token ini. */
+  --color-footer-bottom: #9B1B42;
+  --color-on-footer-bottom: #FFF9EE;
+
+  /* Turunan dari palet inti (tint transparan, bukan warna baru) */
+  --color-line: rgba(130, 5, 39, 0.22);         /* garis tepi kartu & pemisah */
+  --color-line-strong: rgba(130, 5, 39, 0.45);  /* garis tepi input form */
+  --color-soft: rgba(248, 196, 196, 0.45);      /* latar lembut di dalam kartu krem */
+  --color-white: #FFFFFF;
+
+  /* Status: tetap satu keluarga dengan palet */
+  --color-success: #820527;
+  --color-danger: #820527;
+  --color-danger-soft: rgba(235, 99, 120, 0.18);
+
+  /* Font: judul = serif manis, selain itu = Bobaland (+ cadangan bulat ceria) */
+  --font-heading: "Playfair Display", "Lora", Georgia, serif;
+  --font-body: "Bobaland", "Fredoka", "Quicksand", system-ui, sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 9999px;
+
+  --shadow-card: 0 4px 20px -2px rgba(130, 5, 39, 0.22);
+  --header-height: 64px;
+  --bottom-nav-height: 64px;
+}

@@ -1,0 +1,83 @@
+/* Reset, tata letak dasar, header, navigasi, footer. */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding-bottom: var(--bottom-nav-height);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+/* Semua judul memakai serif; semua teks lain mewarisi --font-body dari <body>. */
+h1, h2, h3, h4 { margin: 0; font-family: var(--font-heading); font-weight: 700; line-height: 1.25; color: var(--color-heading); }
+p { margin: 0; }
+[hidden] { display: none !important; }
+
+.container { width: min(100% - 2rem, 1080px); margin-inline: auto; }
+.section { padding-block: var(--space-5) 0; }
+.section__eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-maroon); }
+.section__title { font-size: 1.6rem; }
+.section__title em, .page-header h1 em { font-weight: 400; font-style: italic; color: var(--color-maroon); }
+.section__desc { margin-top: var(--space-1); color: var(--color-text-muted); }
+.section__head { margin-bottom: var(--space-3); }
+.stack { display: flex; flex-direction: column; gap: var(--space-3); }
+.muted { color: var(--color-text-muted); }
+
+/* Header: latar Deep Burgundy Maroon, teks & ikon krem */
+.site-header {
+  position: sticky; top: 0; z-index: 40;
+  background: var(--color-maroon);
+  color: var(--color-on-dark);
+  box-shadow: 0 2px 12px rgba(130, 5, 39, 0.35);
+}
+.site-header__inner { display: flex; align-items: center; justify-content: space-between; height: var(--header-height); gap: var(--space-3); }
+.brand { display: flex; align-items: center; gap: var(--space-2); font-family: var(--font-heading); font-weight: 700; font-size: 1.2rem; color: var(--color-on-dark); }
+.brand__mark { font-size: 1.5rem; }
+.site-header__actions { display: flex; align-items: center; gap: var(--space-2); }
+.main-nav { display: none; gap: var(--space-2); font-weight: 600; }
+.main-nav a { padding: 0.3rem 0.9rem; border-radius: var(--radius-pill); color: var(--color-on-dark); transition: background 0.15s; }
+.main-nav a:hover { background: rgba(250, 244, 228, 0.16); }
+/* Tautan aktif = Rose Berry Pink, teks putih */
+.main-nav a.is-active { background: var(--color-primary); color: var(--color-on-primary); }
+
+/* Navigasi bawah (mobile) */
+.bottom-nav {
+  position: fixed; inset: auto 0 0 0; z-index: 40; height: var(--bottom-nav-height);
+  display: flex; justify-content: space-around; align-items: center;
+  background: var(--color-maroon);
+  box-shadow: 0 -2px 12px rgba(130, 5, 39, 0.35);
+}
+.bottom-nav a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 0.2rem 0.7rem; border-radius: var(--radius-md); font-size: 0.68rem; font-weight: 500; color: var(--color-on-dark); }
+.bottom-nav a span:first-child { font-size: 1.3rem; }
+.bottom-nav a.is-active { background: var(--color-primary); color: var(--color-on-primary); font-weight: 700; }
+
+/* Footer: gaya lengkap ada di components.css (bagian "Footer"). */
+
+.page-header { padding-top: var(--space-4); }
+.page-header h1 { font-size: 1.8rem; margin-top: var(--space-2); }
+.breadcrumb { font-size: 0.72rem; color: var(--color-text-muted); }
+.breadcrumb a { text-decoration: underline; text-underline-offset: 2px; }
+.breadcrumb a:hover { text-decoration-thickness: 2px; }
+
+@media (min-width: 768px) {
+  body { padding-bottom: 0; }
+  .main-nav { display: flex; }
+  .bottom-nav { display: none; }
+  .page-header h1 { font-size: 2.3rem; }
+}
+
+/* Anchor tidak tertutup header yang menempel */
+[id] { scroll-margin-top: calc(var(--header-height) + 1rem); }
+
+/* Fokus keyboard terlihat jelas (maroon di atas pink/krem, krem di atas latar gelap) */
+:focus-visible { outline: 3px solid var(--color-maroon); outline-offset: 2px; }
+.site-header :focus-visible, .bottom-nav :focus-visible, .site-footer :focus-visible, .hero :focus-visible { outline-color: var(--color-cream); }
+
+/* Placeholder input: maroon transparan agar tetap terbaca di atas krem */
+::placeholder { color: rgba(130, 5, 39, 0.65); opacity: 1; }

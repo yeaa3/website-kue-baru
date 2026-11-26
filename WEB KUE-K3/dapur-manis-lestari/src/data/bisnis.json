@@ -1,0 +1,73 @@
+{
+  "nama": "Dapur Manis Lestari",
+  "namaPendek": "Dapur Manis",
+  "tagline": "Artisanal Bakery & Pâtisserie Khas Madiun",
+  "deskripsi": "Kue ulang tahun, wedding cake, kue kering, dan hampers yang dibuat setiap hari sejak 2018 dengan bahan murni premium, tanpa pengawet buatan, dan bersertifikat Halal.",
+  "whatsapp": "6285878521677",
+  "teleponTampil": "0858-7852-1677",
+  "jamBuka": "08.00 - 21.00 WIB",
+  "tahunBerdiri": 2018,
+  "kota": "Kota Madiun, Jawa Timur",
+  "sosmed": [
+    {
+      "nama": "Instagram",
+      "ikon": "instagram",
+      "url": "https://www.instagram.com/dapurmanis_madiun?jplx=MTVveHVwYXRvZWJiaw==",
+      "handle": "@dapurmanis_madiun"
+    },
+    {
+      "nama": "Facebook",
+      "ikon": "facebook",
+      "url": "https://www.facebook.com/dapurmanislestari"
+    },
+    {
+      "nama": "TikTok",
+      "ikon": "tiktok",
+      "url": "https://www.tiktok.com/@dapurmanislestari"
+    }
+  ],
+  "pembayaran": {
+    "dpPersen": 50,
+    "pelunasanHari": "H-1",
+    "batasBayarDP": "1x24 jam setelah invoice diterbitkan",
+    "qris": {
+      "gambar": "qris.png",
+      "namaMerchant": "Dapur Manis Lestari"
+    },
+    "metode": [
+      {
+        "jenis": "bank",
+        "nama": "Bank BCA",
+        "nomor": "7842910456",
+        "atasNama": "Dapur Manis Lestari"
+      },
+      {
+        "jenis": "bank",
+        "nama": "Bank BRI",
+        "nomor": "004501089234532",
+        "atasNama": "Dapur Manis Lestari"
+      },
+      {
+        "jenis": "ewallet",
+        "nama": "GoPay / OVO / ShopeePay",
+        "nomor": "085878521677",
+        "atasNama": "Dapur Manis Lestari"
+      },
+      {
+        "jenis": "qris",
+        "nama": "QRIS",
+        "keterangan": "Scan QRIS langsung di formulir pemesanan di bawah (kode tampil otomatis sesuai nominal), atau di kasir outlet."
+      },
+      {
+        "jenis": "tunai",
+        "nama": "Tunai",
+        "keterangan": "Bayar langsung di kasir outlet mana pun."
+      }
+    ],
+    "konfirmasi": [
+      "Transfer sesuai nominal yang tertera di invoice (DP atau lunas).",
+      "Kirim foto/screenshot bukti transfer ke WhatsApp kami, sertakan nama pemesan dan tanggal acara.",
+      "Admin memverifikasi pembayaran dan mengirim konfirmasi slot produksi (jam kerja 08.00 - 21.00 WIB)."
+    ]
+  }
+}
